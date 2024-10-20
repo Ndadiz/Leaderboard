@@ -1,0 +1,82 @@
+body{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-shadow: 0px 4px 0px #e5c9c5;
+}
+.flex-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px; 
+    margin-bottom: 50px;
+}
+.input-field{
+    font-size: 20px;
+    padding: 10px;
+    border:solid 2px #e5c9c5;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background-color: #e5c9c5;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+
+}
+.wrapper{
+    text-align: center;
+    padding: 20px 315px;
+}
+.flex-player{
+    display: flex;
+    flex-direction: row;
+    background-color: #e5c9c5;
+    margin-bottom: 20px;
+}
+.flex-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    width: 60%;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.flex-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    padding-right: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.player-button{
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-content: center;
+    padding: 5px;
+}
+.player-button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #def4b3;
+}
+.name-date{
+    text-align: start;
+}
